@@ -17,10 +17,10 @@ License: https://hopeisback.com/#hagpl
   *  2.3.2. password,
   *  2.3.3. newTuid,
   * 2.3.4. newPassword.
-* 3. User Login is successful only after each od the steps is successful:
-   3.1. server check for successful matching of h(password) with password and of Tuid with h(Tuid),
-   3.2. renaming Tuid to newTuid and updating the managing hmap arguments to (newTuid,newPassword),
-   3.2. user optionally reset pubKey,
-   3.4. user get the server schedule.
+* 3. User Login is successful only after each of the steps is successful:
+  *   3.1. server check for successful matching of h(password) with password and of Tuid with h(Tuid),
+  *   3.2. renaming Tuid to newTuid and updating the managing hmap arguments to (newTuid,newPassword),
+  *   3.2. user optionally reset pubKey,
+  *   3.4. user get the server schedule.
  
 
