@@ -9,8 +9,8 @@ License: https://hopeisback.com/#hagpl
 
 # The contextual crypt server:    
 * 1. The server is temporal. On each successful user Login the asymmetrically encrypted for that user server schedule is sent to the user, where the schedule includes the time of the next alarmed notification event and where the pub key of users can be changed by the user after any login.
-* 2. Each user's data are contextual encrypted by user (and not on the server), where 
-   2.1. the user's data sits under the  directory renamed Tuid, being the temporal user id,
+* 2. Each user's data are contextual encrypted by user (and not on the server), where
+ * 2.1. the user's data sits under the  directory renamed Tuid, being the temporal user id,
    2.2. the server has, additionally, the managing salted hmap:  h(password)-> h(Tuid) and
    2.3. each user Login arguments are 
    2.3.1. Tuid,
